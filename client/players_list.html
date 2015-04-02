@@ -1,0 +1,12 @@
+<template name="players_list">
+	<ul>
+	    {{#each player}}
+	        <li class="player">
+	        	{{name}}: {{score}} 
+	        	<span class="increment">Upvote</span>
+    			<span class="decrement">Downvote</span>
+    			<span class="remove">Remove</span>
+	        </li>
+	    {{/each}}
+	</ul>
+</template>
